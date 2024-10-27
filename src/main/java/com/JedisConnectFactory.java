@@ -14,7 +14,7 @@ public class JedisConnectFactory {
         poolConfig.setMinIdle(0);
         poolConfig.setMaxWaitMillis(1000);
 
-        jedisPoll = new JedisPool(poolConfig,"192.168.72.128",6379,1000,"Lgd20021221~");
+        jedisPoll = new JedisPool(poolConfig,"192.168.",6379,1000,"Lgd");
 
     }
 

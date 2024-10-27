@@ -11,7 +11,7 @@ public class JedisTest {
     @BeforeEach
     void setUp(){
         jedis = JedisConnectFactory.getJedis();
-        jedis.auth("Lgd20021221~");
+        jedis.auth("Lgd");
         jedis.select(0);
     }
     @Test
